@@ -3,12 +3,18 @@
     padding:0;
 }
 
+.global{
+    width:auto;
+    height:auto;
+}
+
 body{
     background:#FFFFFA;
 }
 
 header{
     width:100%;
+    
 }
 
 header nav{
@@ -87,7 +93,7 @@ section{
 }
 
 .contenedor{
-    margin:20;
+    margin:20px;
     width: auto;
     height: 600px;
     
@@ -110,16 +116,20 @@ section{
     width:45%;
     float:right;
     margin:1px;
+    background:red;
+    border-radius:1em;
 }
 
 .foto img{
-    height: 100%;
+    
     width:100%;
+    border-radius:1em;
 
 }
 
-.informacion h1{
-    margin:10px;
+.informacion h1,p{
+    margin:20px;
+
 }
 
 
