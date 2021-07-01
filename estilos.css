@@ -86,5 +86,42 @@ section{
     }
 }
 
+.contenedor{
+    margin:20;
+    width: auto;
+    height: 600px;
+    
+    background:white;
+}
+
+.foto{
+    background-color:white;
+    height:100%;
+    width:50%;
+    float:left;
+    margin:1px;
+    border-radius:10px;
+
+}
+
+.informacion{
+    background-color:white;
+    height:100%;
+    width:45%;
+    float:right;
+    margin:1px;
+}
+
+.foto img{
+    height: 100%;
+    width:100%;
+
+}
+
+.informacion h1{
+    margin:10px;
+}
+
+
 
 
